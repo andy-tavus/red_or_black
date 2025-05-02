@@ -6,6 +6,15 @@ A demo application that showcases the implementation of tool calls with [Tavus C
 
 This application demonstrates a simple card game where a virtual dealer (Tavus replica) asks the user to guess whether the next card drawn will be red or black. The application uses Tavus CVI to create an interactive AI host that responds to user inputs and performs actions through tool calls.
 
+## Why a Persona is Required
+
+A Tavus persona is essential for this application because it defines the AI's behavior and capabilities, particularly through tool calls. The persona configuration includes:
+- The system prompt that gives the AI its role as a card game host
+- The tool call definition that enables the AI to detect and process user guesses
+- The context that helps the AI understand the game rules and flow
+
+Without a properly configured persona, the AI wouldn't know how to recognize user guesses or trigger the card drawing functionality. The persona acts as the "brain" of the game, connecting user interactions to the game mechanics through tool calls.
+
 ## Technical Implementation
 
 ### Core Technologies
