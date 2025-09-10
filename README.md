@@ -2,6 +2,8 @@
 
 A demo application that showcases the implementation of tool calls with [Tavus Conversational Video Interface (CVI)](https://docs.tavus.io/sections/conversational-video-interface/what-is-cvi-overview) replicas.
 
+[LIVE DEMO](https://andy-tavus.github.io/red_or_black/)
+
 ## Overview
 
 This application demonstrates a simple card game where a virtual dealer (Tavus replica) asks the user to guess whether the next card drawn will be red or black. The application uses Tavus CVI to create an interactive AI host that responds to user inputs and performs actions through tool calls.
